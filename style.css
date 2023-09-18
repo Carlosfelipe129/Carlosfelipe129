@@ -1,27 +1,30 @@
 body {
-    background: rgb(125, 198, 205);
+    background: rgb(173, 121, 121);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #all-contents {
-  max-width: 800px;
-    margin: auto;
+  max-width: 500px;
+    margin:initial;
 }
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(121, 24, 0);
    margin: 0 auto;
     display: flex;
     padding: 10px;
+    align-items: center;
 }
 h1 {
-    display: flex;
-    align-items: center;
+    display:flow-root;
+    text-align:center;
     color: white;
     flex: 1;
-    margin: 0;
+    margin: 1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
 }
 #nav-ul {
     list-style-image: none;
@@ -37,7 +40,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 255, 255);
     display: flex;
 }
 .sidebar {
