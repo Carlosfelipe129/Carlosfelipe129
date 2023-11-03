@@ -39,12 +39,12 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    createPlatform(50, 600, 100, 10);
+    createPlatform(50, 570, 160, 10);
     createPlatform(300, 650, 200, 10);
     createPlatform(380, 457, 300, 10);
-    createPlatform(910, 340, 40, 10);
+    createPlatform(910, 339, 40, 10);
     createPlatform(1100, 210, 200, 10);
-    createPlatform(850, 125, 40, 10);
+    createPlatform(850, 175, 40, 10);
     
     createCollectable("database", 850, 85, 20, 0.10); 
     createCollectable("database", 900, 100, )
