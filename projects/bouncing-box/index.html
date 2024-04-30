@@ -11,11 +11,10 @@
 			background-color: rgb(180, 90, 11);
 			font-size: 300%;
 			text-align: center;
-			user-select: none;
-			display: block;
+			display: circle;
 			position: absolute;
-			top: 500px;
-			left: 500px; /* <--- Change me! */
+			top: 100px;
+			left: 200px; /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
@@ -63,7 +62,7 @@
 			
 			// TODO 2 - Variable declarations 
 
-				 var position = 0;
+				 var positionX = 0;
 				 var points = 0;
 				 var speed = 10;
 
@@ -75,7 +74,7 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update () 
+			function update () {
 				// Your code will increase positionX by 10 here
 				positionX = positionX + speed;
 				moveBoxTo(positionX);
@@ -98,11 +97,11 @@
 				points = points + 1;
 				changeBoxText(points);
 				if ((speed => 0)) {
-						speed = speed +2
+						speed = speed +3;
 	
 				}
 				if (speed <= 0) {
-						speed = speed +2
+						speed = speed -3;
 				}
 				
 				var colorStr = "rgb(180, 90, 11)";
